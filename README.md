@@ -39,10 +39,25 @@ To start the encryption/decryption process:
 # 🔑 Encryption/Decryption
 The tool uses a password-based key derivation function (PBKDF2) with SHA256 and a static salt (for demo purposes). Ensure that the password is securely stored.
 
-📄 License
+# Supported File Types 📂
+CryptDir_Pro can encrypt the contents of various file types, including but not limited to:
+
+- Text files: .txt, .md, .csv, .log
+- Documents: .pdf, .docx, .pptx, .xlsx
+- Images: .jpeg, .jpg, .png, .gif, .bmp
+- Videos: .mp4, .mkv, .avi
+- Audio: .mp3, .wav, .flac
+- Code files: .py, .java, .js, .html, .css, .php, .cpp
+- Archives: .zip, .rar, .tar, .gz
+- Executables: .exe, .bin, .dll
+- Configuration files: .json, .yaml, .ini, .xml
+  
+Essentially, CryptDir_Pro can encrypt the contents of any file type regardless of the format.
+
+# 📄 License
 This project is licensed under the GPL License. See the LICENSE file for details.
 
-👨‍💻 Author
+# 👨‍💻 Author
 coldman07
 Feel free to contribute, report issues, or fork the project!
 Feel free to customize this further for your repository!
