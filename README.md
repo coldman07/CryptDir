@@ -7,6 +7,7 @@ CryptDir_Pro is a lightweight Python tool that allows you to encrypt and decrypt
 - Password-Protected: Uses a password-based key derivation function (PBKDF2).
 - Symmetric Encryption: Leverages the Fernet encryption scheme, based on AES-128 in CBC mode.
 - Interactive Menu: Provides a clean, interactive CLI experience.
+- Keeps the file system structure intact and just encrypts content of files present in the Directory
   
 ## 🛠️ Usage
 
