@@ -13,10 +13,11 @@ CryptDir_Pro is a lightweight Python tool that allows you to encrypt and decrypt
 # Installation: 
 - Clone the repository:
 git clone https://github.com/yourusername/CryptDir_Pro.git
-cd CryptDir_Pro
+- cd CryptDir_Pro
 
 # Install dependencies:
 - pip install -r requirements.txt
+- You don't need to add os, base64, getpass, and pathlib to requirements.txt because they are part of Python's standard library and are automatically included with Python installations. The requirements.txt file is specifically for third-party libraries (such as cryptography and pyfiglet) that need to be installed separately.
 
 # Running the Tool
 To start the encryption/decryption process:
