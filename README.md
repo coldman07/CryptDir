@@ -17,7 +17,7 @@ cd CryptDir_Pro
 
 # Install dependencies:
 - pip install -r requirements.txt
-- 
+
 # Running the Tool
 To start the encryption/decryption process:
  python cryptdir_pro.py
@@ -29,15 +29,18 @@ To start the encryption/decryption process:
 # 🧑‍💻 Example
 
 -> Enter encryption/decryption key: ********
+
 -> Do you want to encrypt or decrypt the directory? (encrypt/decrypt): encrypt
+
 -> Enter the full path of the directory to be encrypted/decrypted: /path/to/directory
+
 -> After this, all files inside the directory will be encrypted/decrypted, and the changes will be reflected in the original files.
 
 # 🔑 Encryption/Decryption
 The tool uses a password-based key derivation function (PBKDF2) with SHA256 and a static salt (for demo purposes). Ensure that the password is securely stored.
 
 📄 License
-This project is licensed under the GNU License. See the LICENSE file for details.
+This project is licensed under the GPL License. See the LICENSE file for details.
 
 👨‍💻 Author
 coldman07
