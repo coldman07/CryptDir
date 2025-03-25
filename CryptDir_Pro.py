@@ -11,7 +11,7 @@ import pyfiglet
 
 def print_banner():
     ascii_art = pyfiglet.figlet_format("CryptDir_Pro")  # Generate the ASCII art
-    creator_credit = "Created by coldman07"  # Add creator credit
+    creator_credit = "Created by coldman07"
     print(ascii_art)
     print(creator_credit)
     print("Directory Encryption/Decryption Tool\n")
