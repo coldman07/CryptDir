@@ -62,4 +62,3 @@ This project is licensed under the GPL License. See the LICENSE file for details
 # 👨‍💻 Author
 coldman07
 Feel free to contribute, report issues, or fork the project!
-Feel free to customize this further for your repository!
