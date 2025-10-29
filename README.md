@@ -1,6 +1,6 @@
-## 🚀 CryptDir_Pro
+## 🚀 CryptDir
 
-CryptDir_Pro is a lightweight Python tool that allows you to encrypt and decrypt the contents of all files within a directory using the Fernet symmetric encryption algorithm. The tool ensures that the contents of files are secured, while leaving the directory structure intact.
+CryptDir is a lightweight Python tool that allows you to encrypt and decrypt the contents of all files within a directory using the Fernet symmetric encryption algorithm. The tool ensures that the contents of files are secured, while leaving the directory structure intact.
 
 ## 🔒 Features
 - Encrypt/Decrypt File Contents: Secure the contents of all files in a directory.
@@ -13,8 +13,8 @@ CryptDir_Pro is a lightweight Python tool that allows you to encrypt and decrypt
 
 # Installation: 
 - Clone the repository:
-git clone https://github.com/yourusername/CryptDir_Pro.git
-- cd CryptDir_Pro
+git clone https://github.com/yourusername/CryptDir.git
+- cd CryptDir
 
 # Install dependencies:
 - pip install -r requirements.txt
@@ -42,7 +42,7 @@ To start the encryption/decryption process:
 The tool uses a password-based key derivation function (PBKDF2) with SHA256 and a static salt (for demo purposes). Ensure that the password is securely stored.
 
 # Supported File Types 📂
-CryptDir_Pro can encrypt the contents of various file types, including but not limited to:
+CryptDir can encrypt the contents of various file types, including but not limited to:
 
 - Text files: .txt, .md, .csv, .log
 - Documents: .pdf, .docx, .pptx, .xlsx
@@ -54,7 +54,7 @@ CryptDir_Pro can encrypt the contents of various file types, including but not l
 - Executables: .exe, .bin, .dll
 - Configuration files: .json, .yaml, .ini, .xml
   
-Essentially, CryptDir_Pro can encrypt the contents of any file type regardless of the format.
+Essentially, CryptDir can encrypt the contents of any file type regardless of the format.
 
 # 📄 License
 This project is licensed under the GPL License. See the LICENSE file for details.
